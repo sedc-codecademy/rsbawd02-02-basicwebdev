@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'East Sea Example';
+    src: url('../fonts/EastSeaDokdo-Regular.ttf');
+}
+
+/* Random font dowloded from web */
+h1 {
+    font-family: 'East Sea Example';
+}
+
+/* Google fonts: Roboto */
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 1.85rem;
+
+    text-shadow: -5px 5px 4px cyan;
+}
+
+.bold {
+    /* bold */
+    font-weight: 700;
+}
+
+p {
+    font-style: italic;
+    line-height: 55px;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    text-align: right;
+}
+
+p::first-letter{
+    font-size: 50px;
+    color: blue;
+}
+
+p::first-line { 
+    background-color: rgb(199, 22, 190);
+    font-weight: bolder;
+}
+
+#vertical {
+    background-color: limegreen;
+    vertical-align: -30px;
+}
+
+
+/* Formatting Links */
+
+a:link {
+    font-size: 20px;
+    text-decoration: none;
+    color: red;
+    /* background-color: rosybrown; */
+}
+
+a:hover {
+    font-size: 20px;
+    background-color: yellow;
+    cursor: grab;
+}
+
+a:active {
+    font-size: 20px;
+    background-color:turquoise;
+}
